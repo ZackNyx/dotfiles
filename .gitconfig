@@ -6,6 +6,6 @@
 [init]
 	defaultBranch = main
 [core]
-	editor = vim
+	editor = neovim
 [pull]
 	rebase = true
