@@ -1,2 +1,4 @@
 theme = tokyonight
 font-family = "ComicShannsMono Nerd Font"
+font-size = 16
+unfocused-split-opacity = 1
