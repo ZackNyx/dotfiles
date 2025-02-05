@@ -885,7 +885,21 @@ require('lazy').setup({
       --  and try some other statusline plugin
       local statusline = require 'mini.statusline'
       -- set use_icons to true if you have a Nerd Font
-      statusline.setup { use_icons = vim.g.have_nerd_font }
+      statusline.setup {
+        use_icons = vim.g.have_nerd_font,
+
+        --  content = {
+        --    active = function()
+        --      local mode, mode_hl = MiniStatusline.section_mode { trunc_width = 120 }
+        --      -- Convert mode text to uppercase
+        --      mode = mode:upper()
+        --      return MiniStatusline.combine_groups {
+        --        { hl = mode_hl, strings = { mode } },
+        --        -- Add other sections as needed
+        --      }
+        --    end,
+        --  },
+      }
 
       -- You can configure sections in the statusline by overriding their
       -- default behavior. For example, here we set the section for
@@ -972,6 +986,16 @@ require('lazy').setup({
     },
   },
 })
+
+-- vim.keymap.set('n', '<leader>vt', function()
+--   require('snacks').terminal.open(nil, {
+--     win = {
+--       relative = 'editor',
+--       position = 'right',
+--       size = { width = 0.4 },
+--     },
+--   })
+-- end, { desc = 'Open vertical terminal' })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

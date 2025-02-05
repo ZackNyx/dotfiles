@@ -17,7 +17,6 @@ return {
       -- refer to the configuration section below
       quickfile = { enabled = true },
       terminal = { enabled = true },
-      zen = { enabled = true },
     },
     keys = {
       {
