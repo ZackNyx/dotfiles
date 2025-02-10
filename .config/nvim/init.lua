@@ -987,15 +987,5 @@ require('lazy').setup({
   },
 })
 
--- vim.keymap.set('n', '<leader>vt', function()
---   require('snacks').terminal.open(nil, {
---     win = {
---       relative = 'editor',
---       position = 'right',
---       size = { width = 0.4 },
---     },
---   })
--- end, { desc = 'Open vertical terminal' })
-
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
