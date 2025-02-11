@@ -14,7 +14,7 @@ if status --is-interactive
     export NVIM_CONF=$HOME/.config/nvim/init.lua
     export WHOME=/mnt/c/Users/hotpo/
 
-    source virtualenvwrapper.sh
+    # source virtualenvwrapper.sh
 
     # =============================================================================
     #
