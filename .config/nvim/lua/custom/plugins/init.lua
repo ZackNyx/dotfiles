@@ -17,6 +17,7 @@ return {
       -- refer to the configuration section below
       quickfile = { enabled = true },
       terminal = { enabled = true },
+      lazygit = { enabled = true },
     },
     keys = {
       {
@@ -32,6 +33,13 @@ return {
           Snacks.terminal()
         end,
         desc = 'which_key_ignore',
+      },
+      {
+        '<c-l>',
+        function()
+          Snacks.lazygit.open()
+        end,
+        desc = 'Toggle Lazygit',
       },
     },
   },
