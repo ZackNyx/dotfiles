@@ -48,3 +48,10 @@
 .config/xdg-desktop-portal-kderc
 .config/plasma.emojierrc
 .config/autostart
+.config/powerdevilrc
+.config/plasmanotifyrc
+.config/kwalletrc
+.config/ksmserverrc
+.config/konsolesshconfig
+.config/konsolerc
+.config/bluedevilglobalrc
