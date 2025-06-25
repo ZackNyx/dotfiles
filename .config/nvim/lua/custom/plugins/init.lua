@@ -34,13 +34,6 @@ return {
         end,
         desc = 'which_key_ignore',
       },
-      {
-        '<c-l>',
-        function()
-          Snacks.lazygit.open()
-        end,
-        desc = 'Toggle Lazygit',
-      },
     },
   },
 
