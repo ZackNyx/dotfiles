@@ -96,3 +96,8 @@
 .config/systemmonitorrc
 .config/trashrc
 .config/btop
+.config/tmux/plugins
+.config/citron/window_state.ini
+.config/citron/telemetry_id
+.config/plasma-nm
+.config/citron
