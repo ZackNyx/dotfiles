@@ -50,4 +50,4 @@ setopt hist_find_no_dups
 # Keybindings
 bindkey -v
 
-alias vim=nvim
+eval "$(zoxide init zsh --cmd cd)"
