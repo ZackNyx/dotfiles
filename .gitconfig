@@ -3,9 +3,13 @@
 	name = 'ZackNyx'
 [credential]
 	helper = store
+	helper = 
+	helper = /usr/sbin/git-credential-manager
 [init]
 	defaultBranch = main
 [core]
 	editor = neovim
 [pull]
 	rebase = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
