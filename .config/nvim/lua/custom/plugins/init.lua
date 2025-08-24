@@ -77,4 +77,10 @@ return {
       scope = { enabled = false },
     },
   },
+  {
+    'jbyuki/instant.nvim',
+    config = function()
+      vim.g.instant_username = 'zack.nyx'
+    end,
+  },
 }
