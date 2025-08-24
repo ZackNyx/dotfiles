@@ -5,6 +5,7 @@
 	helper = store
 	helper = 
 	helper = /usr/sbin/git-credential-manager
+	interactive = 1
 [init]
 	defaultBranch = main
 [core]
